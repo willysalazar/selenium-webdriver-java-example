@@ -1,4 +1,4 @@
-# Projeto Exemplo de Automação :: Selenium Webdriver (:brazil: PT-BR)
+# Projeto Exemplo de Automação Web (:brazil: PT-BR)
 > Projeto exemplo desenvolvido para realizar testes automatizados em sistemas web utilizando:
 - Selenium WebDriver
 - Java
