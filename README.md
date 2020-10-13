@@ -7,10 +7,10 @@
 
 ## Como usar:
 
-- [Instalação](#instalacao)
+- [Instalação](#instalação)
 - [Funcionalidades](#funcionalidades)
-- [Padrões](#padroes)
-- [Dependências](#dependencias)
+- [Padrões](#padrões)
+- [Dependências](#dependências)
 - [Compiladores](#compiladores)
 - [Relatórios](#relatórios)
 - [Contribuindo](#contribuindo)
@@ -67,7 +67,7 @@ Deve-se ter instalado em sua maquina local:
 
 ---
 
-## Padrôes
+## Padrões
 - Fluent Page Object
 - Factory
 
@@ -104,7 +104,7 @@ IMPORTANTE: Deve-se ter um repositório maven devidamente configurado. [Para sab
     - 🍴 Faça um Fork deste repositório!
 
 - **Opção 2**
-    - 👯 Clone este repositório para sua máquina local usando:  `https://github.com/willysalazar/selenium-webdriver-java-example.git`
+    - :bowtie: Clone este repositório para sua máquina local usando:  `https://github.com/willysalazar/selenium-webdriver-java-example.git`
 
 ### Etapa 2
 
