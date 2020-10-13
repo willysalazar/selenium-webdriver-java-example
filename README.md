@@ -19,7 +19,7 @@
 ---
 
 ## Instalação
-### Pre-Requisitos
+### Pré-Requisitos
 Deve-se ter instalado em sua maquina local:
 - GIT
 - MAVEN
@@ -85,7 +85,7 @@ Possui algumas dependencias:
 
 ### Compiladores
 * *apache-maven* - O sistema de compilacao [Apache Maven](https://maven.apache.org/) esta sendo utilizado para realizar a compilacao e build/test do projeto.
-IMPORTANTE: Deve-se ter um repositório maven devidamente configurado. [Para saber mais acesse aqui](https://maven.apache.org/guides/mini/guide-configuring-maven.html). 
+* IMPORTANTE: Deve-se ter um repositório maven devidamente configurado. [Para saber mais acesse aqui](https://maven.apache.org/guides/mini/guide-configuring-maven.html). 
 
 ---
 
