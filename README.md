@@ -54,12 +54,12 @@ Deve-se ter instalado em sua maquina local:
 
 ## Funcionalidades
 - Elements (:white_check_mark:)
-- Forms (:warning: under construction)
-- Alerts (:warning:under construction)
-- Frame (:warning: under construction)
-- Windows (:warning: under construction)
-- Widgets (:warning: under construction)
-- Interactios (:warning: under construction)
+- Forms (:warning:)
+- Alerts (:warning:)
+- Frame (:warning:)
+- Windows (:warning:)
+- Widgets (:warning:)
+- Interactios (:warning:)
 
 ---
 
