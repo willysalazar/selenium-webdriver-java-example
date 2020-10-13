@@ -14,7 +14,7 @@
 
 ---
 
-## Instalacao
+## Instalação
 ### Pre-Requisitos
 Deve-se ter instalado em sua maquina local:
 - GIT
@@ -32,7 +32,7 @@ Deve-se ter instalado em sua maquina local:
 
 ---
 
-### Execucao
+### Execução
 
 > Acessar raiz do projeto
 
@@ -63,13 +63,13 @@ Deve-se ter instalado em sua maquina local:
 
 ---
 
-## Padroes
+## Padrôes
 - Fluent Page Object
 - Factory
 
 ---
 
-### Dependencias
+### Dependências
 Possui algumas dependencias: 
 * *selenium* - [Selenium](https://www.selenium.dev/) framework para criar testes automatizados de sistemas Web. 
 * *testng* - O framework [TestNG](https://testng.org/) engine de teste, que possui funcionalidades semelhantes ao JUnit e NUnit. 
