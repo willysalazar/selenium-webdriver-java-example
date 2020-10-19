@@ -2,7 +2,7 @@ package com.willysalazar.example.utils;
 
 import com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter;
 import com.willysalazar.example.driver.DriverFactory;
-import com.willysalazar.example.pageObjects.WelcomePage;
+import com.willysalazar.example.page.WelcomePage;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;

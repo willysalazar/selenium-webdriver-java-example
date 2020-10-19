@@ -1,4 +1,4 @@
-package com.willysalazar.example.seleniumAbstract;
+package com.willysalazar.example.selenium;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
