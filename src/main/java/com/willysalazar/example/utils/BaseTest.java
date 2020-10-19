@@ -2,6 +2,7 @@ package com.willysalazar.example.utils;
 
 import com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter;
 import com.willysalazar.example.driver.DriverFactory;
+import com.willysalazar.example.pageObjects.WelcomePage;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -14,6 +15,7 @@ import static com.willysalazar.example.utils.PropertyLoader.returnConfigValue;
 public abstract class BaseTest {
 
     protected static WebDriver driver;
+    protected WelcomePage welcomePage;
 
     public static WebDriver getDriver() {
         return driver;
@@ -23,6 +25,7 @@ public abstract class BaseTest {
     public void preCondition() {
         driver = new DriverFactory().createInstance();
         driver.get(returnConfigValue("url.base"));
+        welcomePage = new WelcomePage(driver);
     }
 
     @AfterMethod
