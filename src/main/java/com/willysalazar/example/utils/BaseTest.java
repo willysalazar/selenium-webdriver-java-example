@@ -24,6 +24,7 @@ public abstract class BaseTest {
     @BeforeMethod
     public void preCondition() {
         driver = new DriverFactory().createInstance();
+        driver.manage().window().maximize();
         driver.get(returnConfigValue("url.base"));
         welcomePage = new WelcomePage(driver);
     }
