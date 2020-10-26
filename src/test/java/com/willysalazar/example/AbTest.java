@@ -11,7 +11,7 @@ public class AbTest extends BaseTest {
 private static final Logger LOGGER = LogManager.getLogger();
 private static final String TITLE_AB_EXPECTED= "A/B Test";
 
-    @Test(invocationCount = 10)
+    @Test
     public void shouldValidateABTest(){
         String textTitleAb = abPage.click().getTextTitleAB();
         Assert.assertTrue(textTitleAb.startsWith(TITLE_AB_EXPECTED));
