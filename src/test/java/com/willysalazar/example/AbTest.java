@@ -13,7 +13,7 @@ private static final String TITLE_AB_EXPECTED= "A/B Test";
 
     @Test
     public void shouldValidateABTest(){
-        String textTitleAb = abPage.click().getTextTitleAB();
+        String textTitleAb = abPage.clickLinkABTesting().getTextTitleAB();
         Assert.assertTrue(textTitleAb.startsWith(TITLE_AB_EXPECTED));
         LOGGER.info("Title found: " + textTitleAb);
     }

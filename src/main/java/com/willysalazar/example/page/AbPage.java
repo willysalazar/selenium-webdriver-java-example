@@ -24,7 +24,7 @@ public class AbPage {
         return titleAbPage.getText();
     }
 
-    public AbPage click(){
+    public AbPage clickLinkABTesting(){
         linkTextABTesting.click();
         return this;
     }
