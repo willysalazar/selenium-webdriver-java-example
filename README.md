@@ -1,14 +1,11 @@
 # Projeto Exemplo de Automação Web (:brazil: PT-BR)
-> Projeto exemplo desenvolvido para realizar testes automatizados em sistemas web utilizando:
-- Selenium WebDriver
-- Java
-- Maven
-
-
+> Projeto exemplo desenvolvido para realizar testes automatizados no sistema web [The-Internet](https://the-internet.herokuapp.com/)
+>> Para colaborar com o site The Internet: https://github.com/saucelabs/the-internet
 ## Como usar:
 
 - [Instalação](#instalação)
-- [Funcionalidades](#funcionalidades)
+- [Exemplos](#exemplos)
+- [Tecnologias](#tecnologias)
 - [Padrões](#padrões)
 - [Dependências](#dependências)
 - [Compiladores](#compiladores)
@@ -19,14 +16,6 @@
 ---
 
 ## Instalação
-### Pré-Requisitos
-Deve-se ter instalado em sua maquina local:
-- GIT
-- MAVEN
-- Java8 
-
----
-
 ### Clone
 
 - Clone este repositório para sua máquina local usando comando abaixo:
@@ -56,20 +45,61 @@ Deve-se ter instalado em sua maquina local:
 
 ---
 
-## Funcionalidades
-- Elements (:white_check_mark:)
-- Forms (:warning:)
-- Alerts (:warning:)
-- Frame (:warning:)
-- Windows (:warning:)
-- Widgets (:warning:)
-- Interactios (:warning:)
+## Exemplos
+- [A/B Testing](https://the-internet.herokuapp.com/abtest) (:white_check_mark:)
+- [Add/Remove Elements](https://the-internet.herokuapp.com/add_remove_elements) (:white_check_mark:)
+- [Basic Auth](https://the-internet.herokuapp.com/basic_auth) (:white_check_mark:)
+- Broken Images (:warning:)
+- Challenging DOM (:warning:)
+- Checkboxes (:warning:)
+- Context Menu (:warning:)
+- Digest Authentication (user and pass: admin) (:warning:)
+- Disappearing Elements (:warning:)
+- Drag and Drop (:warning:)
+- Dropdown (:warning:)
+- Dynamic Content (:warning:)
+- Dynamic Controls (:warning:)
+- Dynamic Loading (:warning:)
+- Entry Ad (:warning:)
+- Exit Intent (:warning:)
+- File Download (:warning:)
+- File Upload (:warning:)
+- Floating Menu (:warning:)
+- Forgot Password (:warning:)
+- Form Authentication (:warning:)
+- Frames (:warning:)
+- Geolocation (:warning:)
+- Horizontal Slider (:warning:)
+- Hovers (:warning:)
+- Infinite Scroll (:warning:)
+- Inputs (:warning:)
+- JQuery UI Menus (:warning:)
+- JavaScript Alerts (:warning:)
+- JavaScript onload event error (:warning:)
+- Key Presses (:warning:)
+- Large & Deep DOM (:warning:)
+- Multiple Windows (:warning:)
+- Nested Frames (:warning:)
+- Notification Messages (:warning:)
+- Redirect Link (:warning:)
+- Secure File Download (:warning:)
+- Shadow DOM (:warning:)
+- Shifting Content (:warning:)
+- Slow Resources (:warning:)
+- Sortable Data Tables (:warning:)
+- Status Codes (:warning:)
+- Typos (:warning:)
+- WYSIWYG Editor (:warning:)
 
 ---
+## Tecnologias:
+- Selenium WebDriver
+- Java
+- Maven
 
 ## Padrões
 - Fluent Page Object
-- Factory
+- PageFactory
 
 ---
 
@@ -80,12 +110,6 @@ Possui algumas dependencias:
 * *extentreports* - A biblioteca [extentreports](http://www.extentreports.com/) gera os relatórios de teste em tempo real para que você possa analisar seus testes de uma maneira totalmente diferente. 
 * *webdrivermanager* - A biblioteca [webdrivermanager](https://github.com/bonigarcia/webdrivermanager) permite automatizar o gerenciamento dos drivers (por exemplo, chromedriver, geckodriver, etc.) exigidos pelo Selenium WebDriver. 
 * *lombok* - A biblioteca [Lombok](https://projectlombok.org/) permite automatizar a geração de getters, setters, builders, construtores de forma fácil. 
-
----
-
-### Compiladores
-* *apache-maven* - O sistema de compilacao [Apache Maven](https://maven.apache.org/) esta sendo utilizado para realizar a compilacao e build/test do projeto.
-* IMPORTANTE: Deve-se ter um repositório maven devidamente configurado. [Para saber mais acesse aqui](https://maven.apache.org/guides/mini/guide-configuring-maven.html). 
 
 ---
 
