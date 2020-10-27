@@ -5,8 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import static com.willysalazar.example.selenium.WaitElement.waitVisibilityOf;
-
 public class AddRemoveElementsPage {
 
     private WebDriver driver;
