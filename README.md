@@ -143,9 +143,6 @@ This project can be read in: [Brazilian Portuguese](README-pt-BR.md)
 
 ## Team
 
-| <a href="https://www.linkedin.com/in/willysalazar/" target="_blank">**Linkedin**</a>  |
-| :---: |
-| <a href="http://github.com/willysalazar" target="_blank">`github.com/willysalazar`</a> | 
-
+> Willy Salazar  | <a href="https://www.linkedin.com/in/willysalazar/" target="_blank">**Linkedin**</a> | <a href="https://github.com/willysalazar" target="_blank">**Github**</a> 
 
 ---
