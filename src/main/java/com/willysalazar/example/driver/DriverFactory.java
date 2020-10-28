@@ -10,6 +10,7 @@ public class DriverFactory {
     public DriverFactory() {
         ChromeOptions chromeOptions = new ChromeOptionsFactory().build();
         chromeLocalDriverFactory = new ChromeLocalDriverFactory(chromeOptions);
+        chromeOptions.setHeadless(true);
     }
 
     public WebDriver createInstance(){
