@@ -20,3 +20,8 @@ jobs:
           java-version: 1.11
       - name: Maven Test
         run: mvn clean test -Dtest=*Test
+      - name: Archive Report of Tests
+        uses: actions/upload-artifact@v2
+        with:
+          name: report-test
+          path: target/report/test_execution.html
