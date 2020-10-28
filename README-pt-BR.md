@@ -1,53 +1,52 @@
-# UI Automation Example Project
-> Example project developed to perform automated tests on the website [The-Internet](https://the-internet.herokuapp.com/)
->> To collaborate with The Internet: https://github.com/saucelabs/the-internet
+# Projeto Exemplo de Automação Web 
+> Projeto exemplo desenvolvido para realizar testes automatizados no sistema web [The-Internet](https://the-internet.herokuapp.com/)
+>> Para colaborar com o site The Internet: https://github.com/saucelabs/the-internet
 
-This project can be read in: [Brazilian Portuguese](README-pt-BR.md)
+## Como usar:
 
-## How to use:
-
-- [Installation](#installation)
-- [Examples](#examples)
-- [Technologies](#technologies)
-- [Patterns](#patterns)
-- [Dependencies](#dependencies)
-- [Reports](#reports)
-- [Contributing](#contributing)
-- [Team](#team)
+- [Instalação](#instalação)
+- [Exemplos](#exemplos)
+- [Tecnologias](#tecnologias)
+- [Padrões](#padrões)
+- [Dependências](#dependências)
+- [Compiladores](#compiladores)
+- [Relatórios](#relatórios)
+- [Contribuindo](#contribuindo)
+- [Time](#time)
 
 ---
 
-## Installation
+## Instalação
 ### Clone
 
-- Clone this repository to your local machine using the command below:
+- Clone este repositório para sua máquina local usando comando abaixo:
 ```
 	$ git clone https://github.com/willysalazar/selenium-webdriver-java-example.git
 ```
 
 ---
 
-### Execution
+### Execução
 
-> Access project root
+> Acessar raiz do projeto
 
 ```
 	$ cd /diretorio/selenium-webdriver-java-example
 ```
-> Execute the command to run all tests in the project
+> Realizar comando para executar todos os testes do projeto
 
 ```
 	$ mvn clean test
 ```
-> Execute the command to run only one test class in the project
+> Realizar comando para executar apenas o teste de login
 
 ```
-	$ mvn clean test -Dtest=<WelcomeTest>
+	$ mvn clean test -Dtest=ElementsTest
 ```
 
 ---
 
-## Examples
+## Exemplos
 - [A/B Testing](https://the-internet.herokuapp.com/abtest) (:white_check_mark:)
 - [Add/Remove Elements](https://the-internet.herokuapp.com/add_remove_elements) (:white_check_mark:)
 - [Basic Auth](https://the-internet.herokuapp.com/basic_auth) (:white_check_mark:)
@@ -94,57 +93,57 @@ This project can be read in: [Brazilian Portuguese](README-pt-BR.md)
 - WYSIWYG Editor (:warning:)
 
 ---
-## Technologies:
+## Tecnologias:
 - Selenium WebDriver
 - Java
 - Maven
 
-## Patterns
+## Padrões
 - Fluent Page Object
 - PageFactory
 
 ---
 
-### Dependencies
+### Dependências
 * *[selenium](https://www.selenium.dev/)* 
 * *[testng](https://testng.org/)* 
 * *[extentreports](http://www.extentreports.com/)*
 * *[webdrivermanager](https://github.com/bonigarcia/webdrivermanager)* 
 * *[lombok](https://projectlombok.org/)*
+---
+
+## Relatórios
+* Para visualizar o relatorio dos testes, deve-se acessar o arquivo: */target/report/test_execution.html*
 
 ---
 
-## Reports
-* To view report of test, access the file: */target/report/test_execution.html*
+## Contribuindo
+
+> Para contribuir com este projeto siga as seguintes etapas
+
+### Etapa 1
+
+- **Opção 1**
+    - 🍴 Faça um Fork deste repositório!
+
+- **Opção 2**
+    - :bowtie: Clone este repositório para sua máquina local usando:  `https://github.com/willysalazar/selenium-webdriver-java-example.git`
+
+### Etapa 2
+
+- **Sinta-se livre para codificar!** 🔨🔨🔨
+
+### Etapa 3
+
+- 🔃 Crie um novo pull request usando <a href="https://github.com/willysalazar/selenium-webdriver-java-example/compare/" target="_blank">`https://github.com/willysalazar/selenium-webdriver-java-example/compare/`</a>.
 
 ---
 
-## Contributing
-
-> To contribute to this project follow the steps below
-
-### Step 1
-
-- **Option 1**
-    - 🍴 Fork this repository!
-
-- **Option 2**
-    - :bowtie: Clone this repository to your local machine using:  `https://github.com/willysalazar/selenium-webdriver-java-example.git`
-
-### Step 2
-
-- **Feel free to code!** 🔨🔨🔨
-
-### Step 3
-
-- 🔃 Create a new pull request using <a href="https://github.com/willysalazar/selenium-webdriver-java-example/compare/" target="_blank">`https://github.com/willysalazar/selenium-webdriver-java-example/compare/`</a>.
-
----
-
-## Team
+## Time
 
 | <a href="https://www.linkedin.com/in/willysalazar/" target="_blank">**Linkedin**</a>  |
 | :---: |
+| [![Linkedin](https://avatars2.githubusercontent.com/u/6722023?s=200 )](Linkedin)    |
 | <a href="http://github.com/willysalazar" target="_blank">`github.com/willysalazar`</a> | 
 
 
