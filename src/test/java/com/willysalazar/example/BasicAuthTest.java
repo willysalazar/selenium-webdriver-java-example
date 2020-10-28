@@ -11,13 +11,14 @@ public class BasicAuthTest extends BaseTest {
 private static final Logger LOGGER = LogManager.getLogger();
 
     @Test
-    public void shouldValidateABTest(){
+    public void shouldValidateBasicAuth(){
         String titlePageAuthorized =
                 basicAuthPage.
                     clickLinkBasicAuth().
                     navigateToBasicAuth("admin", "admin").
                     getTextTitleBasicAuth();
         Assert.assertEquals(titlePageAuthorized, "Basic Auth");
+        LOGGER.info("Test Basic Auth successful");
     }
 
 }

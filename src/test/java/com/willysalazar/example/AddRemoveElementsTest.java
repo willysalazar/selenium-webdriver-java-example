@@ -18,7 +18,7 @@ public class AddRemoveElementsTest extends BaseTest {
                         deleteElements().
                         getTextTitleAddRemoveElements();
         Assert.assertEquals(textTitleAddRemoveElements,textTitleAddRemoveElements);
-        LOGGER.info("Title found: " + textTitleAddRemoveElements);
+        LOGGER.info("Test Add/Remove Elements successful");
     }
 
 }
