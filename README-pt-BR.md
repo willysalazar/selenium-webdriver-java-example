@@ -143,8 +143,6 @@
 
 | <a href="https://www.linkedin.com/in/willysalazar/" target="_blank">**Linkedin**</a>  |
 | :---: |
-| [![Linkedin](https://avatars2.githubusercontent.com/u/6722023?s=200 )](Linkedin)    |
 | <a href="http://github.com/willysalazar" target="_blank">`github.com/willysalazar`</a> | 
-
 
 ---
