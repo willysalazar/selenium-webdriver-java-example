@@ -21,7 +21,7 @@ public class PropertyLoader {
                 .getResourceAsStream( "config.properties")) {
 
             properties.load(propFileInpStream);
-            LOGGER.info(MessageFormat.format("Getting {0} inside file environment config.properties: {2}", property, properties.getProperty(property)));
+            LOGGER.debug(MessageFormat.format("Getting {0} inside file environment config.properties: {2}", property, properties.getProperty(property)));
 
             return properties.getProperty(property);
         } catch (IOException e) {

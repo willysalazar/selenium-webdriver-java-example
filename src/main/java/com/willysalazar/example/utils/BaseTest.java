@@ -2,6 +2,10 @@ package com.willysalazar.example.utils;
 
 import com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter;
 import com.willysalazar.example.driver.DriverFactory;
+import com.willysalazar.example.page.AbPage;
+import com.willysalazar.example.page.AddRemoveElementsPage;
+import com.willysalazar.example.page.BasicAuthPage;
+import com.willysalazar.example.page.WelcomePage;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -14,6 +18,10 @@ import static com.willysalazar.example.utils.PropertyLoader.returnConfigValue;
 public abstract class BaseTest {
 
     protected static WebDriver driver;
+    protected WelcomePage welcomePage;
+    protected AbPage abPage;
+    protected AddRemoveElementsPage addRemoveElementsPage;
+    protected BasicAuthPage basicAuthPage;
 
     public static WebDriver getDriver() {
         return driver;
@@ -22,7 +30,12 @@ public abstract class BaseTest {
     @BeforeMethod
     public void preCondition() {
         driver = new DriverFactory().createInstance();
+        driver.manage().window().maximize();
         driver.get(returnConfigValue("url.base"));
+        welcomePage = new WelcomePage(driver);
+        abPage = new AbPage(driver);
+        addRemoveElementsPage = new AddRemoveElementsPage(driver);
+        basicAuthPage = new BasicAuthPage(driver);
     }
 
     @AfterMethod
