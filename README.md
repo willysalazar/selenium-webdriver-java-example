@@ -4,6 +4,10 @@
 
 This project can be read in: [Brazilian Portuguese](README-pt-BR.md)
 
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=willysalazar_selenium-webdriver-java-example&metric=bugs)](https://sonarcloud.io/dashboard?id=willysalazar_selenium-webdriver-java-example) 
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=willysalazar_selenium-webdriver-java-example&metric=code_smells)](https://sonarcloud.io/dashboard?id=willysalazar_selenium-webdriver-java-example)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=willysalazar_selenium-webdriver-java-example&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=willysalazar_selenium-webdriver-java-example)
+
 ## How to use:
 
 - [Installation](#installation)

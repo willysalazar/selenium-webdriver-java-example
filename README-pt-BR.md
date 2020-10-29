@@ -2,6 +2,10 @@
 > Projeto exemplo desenvolvido para realizar testes automatizados no sistema web [The-Internet](https://the-internet.herokuapp.com/)
 >> Para colaborar com o site The Internet: https://github.com/saucelabs/the-internet
 
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=willysalazar_selenium-webdriver-java-example&metric=bugs)](https://sonarcloud.io/dashboard?id=willysalazar_selenium-webdriver-java-example) 
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=willysalazar_selenium-webdriver-java-example&metric=code_smells)](https://sonarcloud.io/dashboard?id=willysalazar_selenium-webdriver-java-example)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=willysalazar_selenium-webdriver-java-example&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=willysalazar_selenium-webdriver-java-example)
+
 ## Como usar:
 
 - [Instalação](#instalação)
