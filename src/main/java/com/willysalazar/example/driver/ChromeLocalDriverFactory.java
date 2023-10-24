@@ -1,11 +1,10 @@
 package com.willysalazar.example.driver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-class ChromeLocalDriverFactory{
+class ChromeLocalDriverFactory {
 
     private ChromeOptions chromeOptions;
 
@@ -14,9 +13,7 @@ class ChromeLocalDriverFactory{
     }
 
     WebDriver driver() {
-        WebDriverManager.chromedriver().setup();
         return new ChromeDriver(chromeOptions);
     }
-
 
 }

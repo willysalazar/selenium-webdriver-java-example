@@ -1,20 +1,15 @@
 package com.willysalazar.example.page;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 
 public class BasicAuthPage {
 
     private WebDriver driver;
 
-
-    public BasicAuthPage(WebDriver webDriver){
+    public BasicAuthPage(WebDriver webDriver) {
         this.driver = webDriver;
         PageFactory.initElements(driver, this);
     }
@@ -36,16 +31,14 @@ public class BasicAuthPage {
         return textTitletAuthorize.getText();
     }
 
-    public BasicAuthPage clickLinkBasicAuth(){
+    public BasicAuthPage clickLinkBasicAuth() {
         linkTextBasicAuth.click();
         return this;
     }
 
-    public BasicAuthPage navigateToBasicAuth(String user, String pass){
+    public BasicAuthPage navigateToBasicAuth(String user, String pass) {
         driver.navigate().to("http://" + user + ":" + user + "@the-internet.herokuapp.com/basic_auth");
         return this;
     }
-
-
 
 }
